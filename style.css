@@ -1,6 +1,12 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./resources/fonts/Roboto/Roboto-Regular.ttf);
+}
+
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto-Regular;
 }
 
 img {
