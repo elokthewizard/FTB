@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    background-color: #eee;
+    justify-content: space-between;
+    box-shadow: inset;
+    align-items: center;
+}
+.banner-logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 16px;
+}
+
+.banner-links .right-side {
+    flex: 1 1 0;
+    padding: 0px 16px;
+    margin: 16px;
+    text-decoration: none;
+    color: black;
+}
