@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Roboto-Regular;
+    font-family: Roboto;
     src: url(./resources/fonts/Roboto/Roboto-Regular.ttf);
 }
 
@@ -25,6 +25,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 300px;
 }
 
 h1 {
@@ -49,6 +50,12 @@ h1 {
     flex: 1 1 0;
     justify-content: center;
     background-color: #1f2937;
+    margin: 0px 300px;
+}
+
+.sub-info {
+    max-width: 450px;
+    flex-shrink: 0;
 }
 
 h2 {
@@ -88,6 +95,7 @@ h3 {
 }
 
 .quoter {
+    font-weight: bold;
     
 }
 
