@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto-Regular;
+    height: 100vh;
 }
 
 img {
@@ -115,6 +116,7 @@ button{
 
 .footer{
     display: flex;
+    flex-direction: column;
     color: #E5E7EB;
     background-color: #1f2937;
     margin-top: auto;
