@@ -6,13 +6,15 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Roboto-Regular;
+    font-family: Roboto;
     height: 100vh;
+    box-sizing: border-box;
 }
 
 img {
     height: auto;
     width: 500px;
+    padding: 50px 0px 50px 100px;
 }
 
 .header {
@@ -22,30 +24,45 @@ img {
     background-color: #1f2937;
 }
 
-.upper-head{
+.upper-head, .lower-head{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto 200px;
+    flex: 0 0 1;
 }
 
 h1 {
-    justify-content: flex-start;
+    font-size: 24px;
+    color: #f9faf8;
+    padding-right: 400px;
 }
 
 .links {
+    font-size: 18px;
+    color: #e5e7eb;
     display: flex;
-    justify-content: flex-end;
 }
 
 a {
     padding: 16px;
 }
 
-.lower-head{
-    display: flex;
-    align-items: center;
+.lower-info{
+    width: 400px;
     justify-content: space-around;
+}
 
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 /* 
