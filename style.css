@@ -18,25 +18,30 @@ img {
 .header {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: #1f2937;
 }
 
-.hero {
+.top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 300px;
+    margin: 0px auto;
+    gap: 500px;
+
 }
 
 h1 {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
+    flex-shrink: 0;
 }
 
 .banner-links .right-side{
     text-decoration: none;
     justify-content: space-around;
+    flex-shrink: 0;
 }
 
 .banner-links, .right-side,
@@ -45,13 +50,13 @@ h1 {
     color: #E5E7EB;
 }
 
-.sub-banner {
+/* .sub-banner {
     display: flex;
     flex: 1 1 0;
     justify-content: center;
     background-color: #1f2937;
-    margin: 0px 300px;
-}
+    margin: 0px auto;
+} */
 
 .sub-info {
     max-width: 450px;
