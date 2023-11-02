@@ -22,15 +22,33 @@ img {
     background-color: #1f2937;
 }
 
-.top {
+.upper-head{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0px auto;
-    gap: 500px;
+    justify-content: space-around;
+}
+
+h1 {
+    justify-content: flex-start;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    padding: 16px;
+}
+
+.lower-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
+/* 
 h1 {
     font-size: 24px;
     font-weight: 900;
@@ -49,14 +67,6 @@ h1 {
     font-size: 18px;
     color: #E5E7EB;
 }
-
-/* .sub-banner {
-    display: flex;
-    flex: 1 1 0;
-    justify-content: center;
-    background-color: #1f2937;
-    margin: 0px auto;
-} */
 
 .sub-info {
     max-width: 450px;
@@ -135,4 +145,4 @@ button{
     margin-top: auto;
     justify-content: center;
     align-items: center;
-}
+} */
