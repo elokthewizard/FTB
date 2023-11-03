@@ -48,7 +48,8 @@ a {
 }
 
 .lower-info{
-    width: 400px;
+    width: auto;
+    height: 281px;
 }
 
 h2 {
@@ -66,7 +67,6 @@ p, .pic-info{
 .image-zone img {
     height: auto;
     width: 500px;
-    padding: 50px 0px 50px 100px;
 }
 
 
@@ -77,6 +77,9 @@ p, .pic-info{
 
 h3{
     text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
 
 .image-zone-2, .pic-text{
@@ -88,6 +91,12 @@ h3{
 .image-zone-2 img,
 .pic-text .pic-info{
     width: 200px;
+    height: 200px;
     text-align: center;
     font-size: 18px;
+}
+
+.image-zone-2 img{
+    border: solid #3882f6 2px;
+    border-radius: 8px;
 }
