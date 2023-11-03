@@ -123,8 +123,13 @@ h3{
 /* quote block */
 
 .quote-block{
-    display: block;
-    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    
 }
 
 .quote{
