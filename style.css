@@ -110,7 +110,7 @@ h3{
 .image-zone-2 img,
 .pic-text .pic-info{
     width: 200px;
-    height: 200px;
+    height: auto;
     text-align: center;
     font-size: 18px;
 }
@@ -118,4 +118,18 @@ h3{
 .image-zone-2 img{
     border: solid #3882f6 2px;
     border-radius: 8px;
+}
+
+/* quote block */
+
+.quote-block{
+    display: block;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    width: 800px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
