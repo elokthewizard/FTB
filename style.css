@@ -133,3 +133,13 @@ h3{
     font-weight: 300;
     font-style: italic;
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    background-color: #1f2937;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+} 
